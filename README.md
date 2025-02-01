@@ -22,7 +22,8 @@ git log --oneline &rarr; Exibe o histórico resumido.<br>
 git add NOME_DO_ARQUIVO &rarr; Adiciona um arquivo específico à área de staging.<br>
 git add . &rarr; Adiciona todos os arquivos modificados ao staging.<br>
 git rm --cached NOME_DO_ARQUIVO &rarr; Remove um arquivo do staging.<br>
-Commits
+
+#### Commits
 git commit -m "Mensagem do commit" &rarr; Cria um commit com os arquivos no staging.<br>
 git commit --amend -m "Nova mensagem" &rarr; Edita o último commit.<br>
 
