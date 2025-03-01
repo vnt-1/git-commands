@@ -57,3 +57,11 @@ git reset --hard HEAD\~1 &rarr; Desfaz o último commit e descarta todas as muda
 git revert HASH_DO_COMMIT &rarr; Cria um novo commit que reverte um commit específico.<br>
 
 Lembrando que existem diversas outras opções de comandos e configurações, que podem ser verificadas na documentação oficial do Git.
+
+#### Configurando git para lidar com terminações de linhas:
+
+##### Linux e macOS
+git config --global core.autocrlf input
+
+##### Windows
+git config --global core.autocrlf true
