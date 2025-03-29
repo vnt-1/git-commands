@@ -40,6 +40,7 @@ git branch -d NOME_DA_BRANCH &rarr; Deleta uma branch.<br>
 
 git remote add origin URL_DO_REPOSITORIO &rarr; Adiciona um repositório remoto.<br>
 git remote -v &rarr; Lista os repositórios remotos configurados.<br>
+git remote set-url origin URL_DO_REPOSITORIO &rarr; Muda o repositório remoto.<br>
 git push origin NOME_DA_BRANCH &rarr; Envia commits para o repositório remoto.<br>
 git pull origin NOME_DA_BRANCH &rarr; Atualiza a branch local com a versão remota.<br>
 git fetch &rarr; Baixa mudanças do repositório remoto sem mesclar.<br>
